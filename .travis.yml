@@ -1,0 +1,4 @@
+os: windows
+language: shell
+script:
+  - powershell WinUpdate.ps1
