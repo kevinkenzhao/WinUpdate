@@ -1,4 +1,6 @@
 os: windows
 language: shell
+install:
+  - powerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy Bypass'
 script:
-  - powershell WinUpdate.ps1
+  - powershell -File WinUpdate.ps1
